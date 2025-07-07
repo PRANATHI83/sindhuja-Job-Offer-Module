@@ -23,7 +23,7 @@ services:
     container_name: Employee-application01
     build: ./Employee-application
     ports:
-      - "801780"
+      - "8017:80"
     depends_on:
       - backend
     networks:
